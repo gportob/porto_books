@@ -1,0 +1,66 @@
+.banner {
+    font-family: var(--fonte-principal);
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    background: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1em 1.8em;
+    width: 100%;
+    color: var(--branco);
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../assets/img/Pesquisa.svg") no-repeat;
+}
+
+.banner__topicos {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 1.5em;
+}
+
+
+.banner__topicos_link {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.lista__banner {
+    margin: 1.5em 0.3em;
+}
+
+.banner__topicos_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner__topicos_visitados {
+    padding: 1em;
+}
