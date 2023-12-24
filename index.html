@@ -40,9 +40,41 @@
             </li>
         </ul>
         <img src="assets/img/logo.png" alt="Logo da PortoBooks" />
+        <h1 class="container__titulo"><b class="container__titulo_negrito">Porto</b>Books</h1>
       </div>
+
+      <ul class="opcoes">
+        <input type="checkbox" id="opcoes_menu" class="opcoes__botao">
+        <label for="opcoes_menu">
+          <li class="opcoes__item">Catedorias</li>
+        </label>
+        
+        <ul class="lista_menu">
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Aventura</a>
+          </li>
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Romance</a>
+          </li>
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Mistério</a>
+          </li>
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Infantil</a>
+          </li>
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Negócios</a>
+          </li>
+          <li class="lista_menu__item">
+              <a href="#" class="lista_menu__link">Suspense</a>
+          </li>
+      </ul>
+        <li class="opcoes__item "><a href="#" class="opcoes__link">Favoritos</a></li>
+        <li class="opcoes__item "><a href="#" class="opcoes__link">Minha estante</a></li>
+      </ul>
+
       <div class="container">
-        <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"/></a>
+        <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem_transparente"/></a>
         <a href="#"><img src="assets/img/Compras.svg" alt="Carrinho de compras" class="container__imagem"/></a>
         <a href="#"><img src="assets/img/Usuario.svg" alt="Meu perfil" class="container__imagem"/></a>
       </div>
@@ -163,16 +195,24 @@
       </ul>
     </section>
 
-    <footer class="footer__geral">
-      <h2 class="footer__titulo">Fique por dentro das novidades</h2>
-      <p class="footer__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-      <div class="footer__cadastre_email">
+    <section class="contato__geral">
+      <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      </div>
+      
+      <div class="contato__cadastre_email">
         <input type="email" class="banner__cadastro" placeholder="Cadastre seu e-mail">
         <input type="submit" class="botao__cadastrar" value="Enviar">
       </div>
-      <hr>
-      <p class="p__final">Graziela Porto</p>
-    </footer>
+
+      <footer>
+        <hr>
+        <p class="p__final">Graziela Porto</p>
+      </footer>
+    </section>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
