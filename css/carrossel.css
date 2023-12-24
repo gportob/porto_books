@@ -51,7 +51,7 @@
 
 .descricao__titulo_livro {
     color: #002F52;
-    font: 18px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
 }
@@ -74,4 +74,34 @@
 
 .descricao__imagem {
     width: 50%;
+}
+
+@media screen and (min-width:1024px) {
+    .carrossel__titulo {
+        font-size: 24px;
+        padding: 2em 0 1em 0;
+    }
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+    .swiper {
+        width: 70%;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+    .card {
+        width: 50%;
+        margin: 2em auto;
+        padding: 2em;
+    }
+    .descricao__texto {
+        padding-right: 2em;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .descricao__imagem {
+        width: 30%;
+    }
 }
